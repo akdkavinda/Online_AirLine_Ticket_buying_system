@@ -1,0 +1,415 @@
+/********************
+ ** Header Section **
+*********************/
+
+body, html{
+    font-family: 'Open Sans', sans-serif;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;	
+    scroll-behavior: smooth;
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+.social {
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+/*     Social media icon color section     */
+.social #facebook{
+    color: #706e6e;    
+}
+.social #inster{
+    color: #706e6e;    
+}
+.social #twiter{
+    color: #706e6e;    
+}
+.social #youtube{
+    color: #706e6e;    
+}
+
+/* Hover efect*/
+.social #facebook:hover{
+    color: #3b5998;
+    transition-delay: 0.1s;
+}
+.social #inster:hover{
+    color: #fb3958;    
+    transition-delay: 0.1s;
+}
+.social #twiter:hover{
+    color: #1DA1F2;    
+    transition-delay: 0.1s;
+}
+.social #youtube:hover{
+    color: #c4302b;    
+    transition-delay: 0.1s;
+}
+
+
+/*     Social media icon color section     */
+
+
+.size{
+    width: 50px;
+    height: 40px;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-decoration: none;
+}
+
+.login{
+    float: right;
+    border: none;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 50px;
+    background-color: #fff; 
+    font-size: 14px;
+    color: #706e6e;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+
+.login a{
+    text-decoration:none;
+    color: #706e6e;
+}
+
+i {
+    align-items: center;
+    padding-right: 20px;
+}
+
+.login a:hover{
+    color: #297bb4 ;
+}
+
+login label{
+     color: #297bb4;
+}
+
+hr{
+    width: 100%; 
+    padding-top: 110px;
+    border: none;
+}
+
+/***********************
+ ** End Header Section **
+************************/
+
+
+
+/********************
+ ** Slider Section **
+*********************/
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 2000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+
+.text{
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: left;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    font-size: 65px;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 5px 5px 10px black;
+}
+
+.text1{
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: left;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    font-size: 50px;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 5px 5px 10px black;
+}
+
+.text2{
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: right;
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    font-size: 65px;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 5px 5px 10px black;
+}
+
+.text3{
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: right;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    font-size: 70px;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 5px 5px 10px black;
+}
+
+.text4{
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: right;
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    font-size: 50px;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 5px 5px 10px black;
+}
+
+.text5{
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: right;
+    position: absolute;
+    top: 55%;
+    right: 17%;
+    font-size: 70px;n
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 5px 5px 10px black;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    margin-bottom: 20px;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+}
+
+
+/************************
+ ** End Slider Section **
+*************************/
+
+
+
+
+/********************
+ ** Body Section **
+*********************/
+
+.para{
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+/**********************
+ ** End Body Section **
+***********************/
+
+
+
+
+
+/************************
+ ** Navigation Section **
+*************************/
+
+
+#nav-section {
+    overflow: hidden;
+    background-color: #fff;
+}
+
+#nav-section a {
+    float: left;
+    margin-left: 10px;
+    display: block;
+    color: #5a5c5e;
+    text-align: center;
+    padding: 16px 20px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#nav-section a:hover {
+    background-color: #3498db; 
+    color: #fff;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+#nav-section a.active {
+    background-color:#e74c3c;
+    color: white;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+#nav-section a.active:hover {
+    border-radius: 20px;
+    background-color: #3498db;
+    border-left: #eb2525; 
+    transition: 0.5s; 
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%; 
+    transition-duration: 0.5s;
+}
+
+.sticky + .content {
+    padding-top: 60px;
+    background-color: #000;  
+}		
+
+
+/****************************
+ ** End Navigation Section **
+*****************************/
+
+
+
+
+/********************
+ ** Footer Section **
+*********************/
+
+footer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url(../images/footer.jpg) ;
+    width: 100%;
+    max-width: 2000px;
+    height: 300px;
+    color: white;
+    background-attachment: inherit;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.footer-section{
+    width: 1280px;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.single-column{
+    width: 25%;
+    max-width: 2560px;
+    float: left;
+    text-align: left;
+    color: #fff;
+
+}
+
+.single-column ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.single-column ul a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+.single-column p{
+    width: 70%;
+}
+
+.single-column ul a:hover{
+    color: #5499c7;
+    transition-duration: 0.2s; 
+}
+
+/************************
+ ** End Footer Section **
+*************************/

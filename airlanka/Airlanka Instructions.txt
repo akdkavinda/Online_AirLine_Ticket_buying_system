@@ -1,0 +1,21 @@
+//IT19158082
+Y1.S2.(3.2) MLB_GRP
+W.M.M.G.B Senarathne
+
+
+Instructions..
+
+Pages I have created as follows,
+1.homepage with Airline reservation page.
+2.view flight details for the inserted date and venue
+3. create new customer.
+4.user  and  admin login
+
+Steps..
+
+1.Please find the "airline_reservation.sql" in the SQL folder  and import to the phpmyadmin.
+2. run "index.php" . then the booking page will be open.
+3. you can either search for flight detials or you can sign-in or sign-up using sign in option at the top corner.
+4. if you are searching for flights then you will be redirected to the flight info page. (Use search credentials as follows : Date=14.05.2020 & From = Sri lanka to Singapore )
+5. if you are clicking on sign-in/ sign-up , (Admin User_name=sliit.lk  & PW=sliit.lk ) or you can create a new customer account by clicking create new account below.
+6.if the login process is successfull you will be redirected to the customer / admin page, if you are entering wrong user credentials it will pop up an error page.
